@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.outfit{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+    position: relative;
+    width: 400px;
+    height: 670px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+}
+
+#nft-image{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#nft-view{
+    position: absolute;
+    right: 180px;
+    top: 175px;
+}
+
+.seen-color{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    bottom: 290px;
+    border-radius: 10px;
+    background: rgba(0, 255, 247, 0.4);
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.seen-color:hover{
+    opacity: 1;
+}
+
+.text{
+    color: hsl(215, 51%, 70%);
+} 
+
+#text-principal{
+    font-size: 25px;
+}
+
+.nft-info{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.nft-info #nft-ethereum{
+    display: flex;
+    align-items: center;
+}
+
+.nft-info #nft-clock{
+    display: flex;
+    align-items: center;
+}
+
+.nft-info #eth{
+    font-weight: 500;
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-info img{
+    height: 21px;
+    margin-right: 5px;
+}
+
+.nft-creator{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nft-creator img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#name-creator{
+    margin-left: 6px;
+    font-weight: 550;
+}
+
+.hover:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer
+}
+
+p{
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p, a{
+    color: white;
+    margin: 0px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+    text-decoration: underline;
+}
